@@ -1,0 +1,6 @@
+{
+  "name": "Code Visualizer",
+  "description": "Interactive code execution visualizer, real-time memory & call stack debugger, and animated data structure & algorithm learning platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

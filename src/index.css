@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+html, body, #root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+html.dark {
+  background-color: #020617;
+  color: #f8fafc;
+}
+
